@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   
   s.name             = 'ADTFoundation'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'A set of useful categories for Foundation.'
   
   s.homepage = 'https://github.com/robin2005/' + s.name
