@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0021B989250A48B400FDB636 /* String+url.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0021B988250A48B400FDB636 /* String+url.swift */; };
 		05F313B5C7F240E0C08A05185DD9BD61 /* ADTFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A1B467D93F4AA77E1BA28C1610156F /* ADTFoundation-dummy.m */; };
 		07601CB1F5C6AB3295FA63C3DFE052BE /* String+operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE953BB8EBAA5C87AF8E61EFB7F0FAD /* String+operator.swift */; };
 		0878F6BB7120DB9828F51D6EA2BE9A45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE354DA182454A49972F1EA0BAB0B3E /* Foundation.framework */; };
@@ -79,6 +80,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0021B988250A48B400FDB636 /* String+url.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+url.swift"; sourceTree = "<group>"; };
 		0122D7BC4AC9238B9E88A25DA5F1BDE5 /* ADTFoundation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ADTFoundation.xcconfig; sourceTree = "<group>"; };
 		0294E2C54B6E7B75134F273FF7DD2CF6 /* WeakArray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WeakArray.swift; sourceTree = "<group>"; };
 		03ED622537DD42759AC66AE4E181CA86 /* Pods-ADTFoundation_ExampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ADTFoundation_ExampleUITests-dummy.m"; sourceTree = "<group>"; };
@@ -275,6 +277,7 @@
 				73680115CB8B71C24ECF4B8720303B9C /* String+MD5.swift */,
 				5BE953BB8EBAA5C87AF8E61EFB7F0FAD /* String+operator.swift */,
 				4B8C3E15BFB030D8E602C0A4695A8490 /* String+substring.swift */,
+				0021B988250A48B400FDB636 /* String+url.swift */,
 			);
 			name = String;
 			sourceTree = "<group>";
@@ -628,6 +631,7 @@
 				C68A2726C64985996E51FF0BF9876626 /* Bool.swift in Sources */,
 				0FB28A08F4908BFFD0BAC3DEF9FABF70 /* Cache.swift in Sources */,
 				10D2488CAD4D7A7C3040CF8E19F9C59C /* CacheBox.swift in Sources */,
+				0021B989250A48B400FDB636 /* String+url.swift in Sources */,
 				6CC2A2915306FE7A8297CFC3A6279714 /* CacheProtocol.swift in Sources */,
 				A809863C61207A2045BE12B04430EA50 /* Character.swift in Sources */,
 				D5E8AF9B03C582D79292D5C8468491C0 /* CharacterSet.swift in Sources */,
