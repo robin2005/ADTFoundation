@@ -43,7 +43,7 @@
 		0021B92D2509D91900FDB636 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0021B92F2509D91900FDB636 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0021B93B2509F04D00FDB636 /* create-apis.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "create-apis.sh"; path = "../create-apis.sh"; sourceTree = "<group>"; };
-		0021B93D2509F06400FDB636 /* ADTFoundation.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ADTFoundation.podspec; path = ../ADTFoundation.podspec; sourceTree = "<group>"; };
+		0021B93D2509F06400FDB636 /* ADTFoundation.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ADTFoundation.podspec; path = ../ADTFoundation.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0021B9432509F0EB00FDB636 /* ADTFoundation_ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADTFoundation_ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0021B9452509F0EB00FDB636 /* ADTFoundation_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADTFoundation_ExampleUITests.swift; sourceTree = "<group>"; };
 		0021B9472509F0EB00FDB636 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
