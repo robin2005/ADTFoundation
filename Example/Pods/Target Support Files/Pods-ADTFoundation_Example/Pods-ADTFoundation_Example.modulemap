@@ -1,0 +1,6 @@
+framework module Pods_ADTFoundation_Example {
+  umbrella header "Pods-ADTFoundation_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

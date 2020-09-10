@@ -1,0 +1,36 @@
+PODS:
+  - ADTFoundation (0.0.1):
+    - ADTFoundation/Coder (= 0.0.1)
+    - ADTFoundation/Custom (= 0.0.1)
+    - ADTFoundation/Data (= 0.0.1)
+    - ADTFoundation/Date (= 0.0.1)
+    - ADTFoundation/Device (= 0.0.1)
+    - ADTFoundation/Dispatch (= 0.0.1)
+    - ADTFoundation/NSObject (= 0.0.1)
+    - ADTFoundation/Stdlib (= 0.0.1)
+    - ADTFoundation/String (= 0.0.1)
+    - ADTFoundation/URL (= 0.0.1)
+  - ADTFoundation/Coder (0.0.1)
+  - ADTFoundation/Custom (0.0.1)
+  - ADTFoundation/Data (0.0.1)
+  - ADTFoundation/Date (0.0.1)
+  - ADTFoundation/Device (0.0.1)
+  - ADTFoundation/Dispatch (0.0.1)
+  - ADTFoundation/NSObject (0.0.1)
+  - ADTFoundation/Stdlib (0.0.1)
+  - ADTFoundation/String (0.0.1)
+  - ADTFoundation/URL (0.0.1)
+
+DEPENDENCIES:
+  - ADTFoundation (from `../`)
+
+EXTERNAL SOURCES:
+  ADTFoundation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ADTFoundation: 4a9ea3b1723ecceadce277eac00964801ca8d9f5
+
+PODFILE CHECKSUM: 4f0eae3e6277040034a4837016e8f76f4af732c1
+
+COCOAPODS: 1.8.3

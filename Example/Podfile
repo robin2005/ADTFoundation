@@ -1,0 +1,10 @@
+use_frameworks!
+
+target 'ADTFoundation_Example' do
+  pod 'ADTFoundation', :path => '../'
+end
+
+ target 'ADTFoundation_ExampleUITests' do
+   pod 'ADTFoundation', :path => '../'
+ end
+

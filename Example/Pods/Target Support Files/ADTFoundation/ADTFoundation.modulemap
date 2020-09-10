@@ -1,0 +1,6 @@
+framework module ADTFoundation {
+  umbrella header "ADTFoundation-umbrella.h"
+
+  export *
+  module * { export * }
+}
