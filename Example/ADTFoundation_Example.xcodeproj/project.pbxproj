@@ -557,6 +557,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ADT.ADTFoundation-ExampleUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = ADTFoundation_Example;
@@ -577,6 +578,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ADT.ADTFoundation-ExampleUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = ADTFoundation_Example;
