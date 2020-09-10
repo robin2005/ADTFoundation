@@ -21,7 +21,7 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 
 import Foundation
-// MARK: - format
+// ADTApiAes: - format
 public extension String {
     /// format: NSNumber
     var number: NSNumber? { return NumberFormatter().number(from: self) }

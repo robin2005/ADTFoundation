@@ -38,7 +38,7 @@ public protocol EventBusProtocol {
     var keySet: Set<EventBusKey> { get set }
 }
 
-// MARK: - subscribe / push
+// ADTApiAes: - subscribe / push
 public extension EventBusProtocol {
     /// 订阅数据更新
     ///
@@ -71,7 +71,7 @@ public extension EventBusProtocol {
     
 }
 
-// MARK: - remove event
+// ADTApiAes: - remove event
 public extension EventBusProtocol {
     
     /// 移除 target 下所有订阅事件

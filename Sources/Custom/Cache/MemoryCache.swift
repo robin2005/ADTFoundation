@@ -36,7 +36,7 @@ public class MemoryCache<Element: NSCoding>: CacheProtocol {
 
 extension MemoryCache {
   
-  // MARK: - Synchronous
+  // ADTApiAes: - Synchronous
   
   public subscript(key: String) -> Element? {
     get {

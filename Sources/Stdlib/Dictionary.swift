@@ -22,7 +22,7 @@
 import Foundation
 
 
-// MARK: - Dictionary 重载操作符
+// ADTApiAes: - Dictionary 重载操作符
 extension Dictionary {
   
   /// 两个字典相加
@@ -40,7 +40,7 @@ extension Dictionary {
   
 }
 
-// MARK: - Dictionary subscript函数
+// ADTApiAes: - Dictionary subscript函数
 public extension Dictionary {
   
   /// 根据下标集合获取元素集合
@@ -60,7 +60,7 @@ public extension Dictionary {
   
 }
 
-// MARK: - Dictionary 属性
+// ADTApiAes: - Dictionary 属性
 public extension Dictionary {
   /// 从字典中随机取值
   ///
@@ -72,7 +72,7 @@ public extension Dictionary {
   
 }
 
-// MARK: - 函数
+// ADTApiAes: - 函数
 public extension Dictionary {
   /// 检查是否有值
   ///

@@ -70,4 +70,44 @@ public extension Date {
         }
         return dateFormatter
     }
+
+    /// 根据服务器时间格式将字符串 -> 时间类
+    ///
+    /// 默认时间格式:MM-dd-yyyy
+    /// 默认美国时区
+    ///
+    static func getDateFromServiceString(_ dateString:String,dateFormat:String = "MM-dd-yyyy" , timeZone:String = "America/Los_Angeles") -> Date {
+        let sourceTimeZone = TimeZone(identifier: timeZone)
+        let dateFormatter = DateFormatter.init()
+        dateFormatter.timeZone = sourceTimeZone
+        dateFormatter.dateFormat = dateFormat
+       if let date = dateFormatter.date(from: dateString) {
+           return date
+       }
+       dateFormatter.dateFormat = "yyyy-MM-dd"
+       if let date = dateFormatter.date(from: dateString) {
+           return date
+       }
+       return Date()
+    }
+
+    /// 根据时间服务器格式将时间类 -> 字符串
+    ///
+    /// 默认时间格式:yyyy-MM-dd HH:mm:ss
+    /// 默认美国时区
+    ///
+    static func getTimeStrFromServiceDate (_ date:Date,dateFormat:String = "MM-dd-yyyy HH:mm:ss", timeZone:String = "America/Los_Angeles") -> String {
+         let dateFormatter = DateFormatter.init()
+         let sourceTimeZone = TimeZone(identifier: timeZone)
+         dateFormatter.timeZone = sourceTimeZone
+         dateFormatter.dateFormat = dateFormat
+         let str = dateFormatter.string(from: date)
+         return str
+     }
+ 
+    ///MARK:  通过出生日期获得 Age
+    var age: Int {
+        return Calendar.current.dateComponents([.year], from: self, to: Date()).year!
+    }
+
 }

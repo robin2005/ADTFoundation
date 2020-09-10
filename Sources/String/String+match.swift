@@ -22,7 +22,7 @@
 
 import Foundation
 
-// MARK: - Emoji
+// ADTApiAes: - Emoji
 public extension String{
 
     /// 提取: Emojis

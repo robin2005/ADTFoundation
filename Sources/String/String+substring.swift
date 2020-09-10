@@ -22,7 +22,7 @@
 
 import Foundation
 
-// MARK: - 下标/区间截取
+// ADTApiAes: - 下标/区间截取
 public extension String {
   /// 获取指定位置字符
   ///
@@ -122,7 +122,7 @@ public extension String {
   
 }
 
-// MARK: - 截取
+// ADTApiAes: - 截取
 public extension String {
   /// 截取: 获取指定字符串前的字符
   ///

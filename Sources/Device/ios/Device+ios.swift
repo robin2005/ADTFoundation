@@ -116,7 +116,7 @@ extension Device {
     
 }
 
-// MARK: - enum
+// ADTApiAes: - enum
 extension Device {
     
     public enum `Type`: String,CaseIterable {

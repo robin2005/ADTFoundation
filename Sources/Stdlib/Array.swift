@@ -22,7 +22,7 @@
 
 import Foundation
 
-// MARK: - 下标/区间截取
+// ADTApiAes: - 下标/区间截取
 extension Array {
     
     
@@ -75,7 +75,7 @@ extension Array {
     
 }
 
-// MARK: - Array about remove
+// ADTApiAes: - Array about remove
 extension Array where Element: Equatable {
     
     

@@ -24,7 +24,7 @@ import Foundation
 
 infix operator =~
 
-// MARK: - 操作符
+// ADTApiAes: - 操作符
 public extension String{
 
   static func*(str: String, num: Int) -> String {

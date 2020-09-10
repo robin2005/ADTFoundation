@@ -56,7 +56,7 @@ public extension Numeric {
     var string: String { return String(describing: self) }
 }
 
-// MARK: - Int family
+// ADTApiAes: - Int family
 public extension SignedInteger {
     /// 绝对值
     var abs: Self { return Swift.abs(self) }
@@ -86,7 +86,7 @@ public extension SignedInteger {
 }
 
 
-// MARK: - UInt family
+// ADTApiAes: - UInt family
 public extension UnsignedInteger where Self: SignedInteger {
 
     /// 绝对值

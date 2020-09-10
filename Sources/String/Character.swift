@@ -22,7 +22,7 @@
 
 import Foundation
 
-// MARK: - Properties
+// ADTApiAes: - Properties
 public extension Character {
     /// 转换: int
     var int: Int? {
