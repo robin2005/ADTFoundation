@@ -108,7 +108,9 @@ public class Gcd {
             queue.asyncAfter(deadline: keepTime) {
                 if timer.isCancelled { return }
                 timer.cancel()
-                completion?()
+                DispatchQueue.main.async {
+                    completion?()
+                }
             }
         }
 
