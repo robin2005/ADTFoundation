@@ -147,3 +147,26 @@ extension DispatchTime: ExpressibleByFloatLiteral {
         self = DispatchTime.now() + .milliseconds(Int(value * 1000))
     }
 }
+
+
+extension DispatchQueue {
+
+     /// 倒计时
+    public class func timer(second: Int, handler: @escaping ((DispatchSourceTimer, Int) -> Void)) -> DispatchSourceTimer { 
+        var second = second
+        let timer = DispatchSource.makeTimerSource(flags: [], queue: DispatchQueue.global())
+        timer.schedule(wallDeadline: .now(), repeating: 1)
+        timer.setEventHandler {
+            second -= 1
+            DispatchQueue.main.async {
+                handler(timer, second)
+            }
+            if second <= 0 {
+                timer.cancel()
+            }
+        }
+        timer.resume()
+        return timer
+    }
+
+}
